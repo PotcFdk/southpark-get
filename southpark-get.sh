@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# southpark-get v0.0.1
+# southpark-get v0.0.2
 
 # southpark-get - Copyright (c) PotcFdk; 2015
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,6 +25,7 @@ function build_ordered_list {
 	for FILE in *.mp4; do
 		echo $FILE >> tmp-list.txt
 	done
+	sort tmp-list.txt -o tmp-list.txt
 
 	# There's probably a way to do this 100% in sed.
 	# Or awk. Oh well.
