@@ -2,7 +2,7 @@
 
 # Episode list to automate southpark-get
 # This list contains all episodes on southpark.de
-# (2016-01-20)
+# (2018-02-20)
 
 for EPISODE in {01..13}; do ./southpark-get.sh 01 $EPISODE; done
 for EPISODE in {01..18}; do ./southpark-get.sh 02 $EPISODE; done
@@ -23,3 +23,5 @@ for EPISODE in {01..14}; do ./southpark-get.sh 16 $EPISODE; done
 for EPISODE in {01..10}; do ./southpark-get.sh 17 $EPISODE; done
 for EPISODE in {01..10}; do ./southpark-get.sh 18 $EPISODE; done
 for EPISODE in {01..10}; do ./southpark-get.sh 19 $EPISODE; done
+for EPISODE in {01..10}; do ./southpark-get.sh 20 $EPISODE; done
+for EPISODE in {01..10}; do ./southpark-get.sh 21 $EPISODE; done
